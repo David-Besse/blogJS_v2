@@ -1,0 +1,38 @@
+<div>
+  <h1>Profil</h1>
+  <p>Username: <span id="username"></span></p>
+  <p>Email: <span id="email"></span></p>
+  <p>Created At: <span id="created_at"></span></p>
+
+  <form id="edit-form">
+    <label for="oldPassword">Ancien mot de passe :</label>
+    <input
+      type="password"
+      id="oldPassword"
+      placeholder="Ancien mot de passe"
+      autocomplete="current-password"
+    />
+
+    <label for="newPassword">Nouveau mot de passe :</label>
+    <input
+      type="password"
+      id="newPassword"
+      placeholder="Nouveau mot de passe"
+      autocomplete="new-password"
+    />
+
+    <label for="confirmPassword">Confirmer le nouveau mot de passe :</label>
+    <input
+      type="password"
+      id="confirmPassword"
+      placeholder="Confirmer le nouveau mot de passe"
+      autocomplete="new-password"
+    />
+
+    <button type="submit" id="update-button">
+      Mettre à jour le mot de passe
+    </button>
+  </form>
+
+  <button id="logout-button">Déconnexion</button>
+</div>

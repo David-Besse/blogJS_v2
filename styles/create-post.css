@@ -1,0 +1,38 @@
+.create-post {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.create-post h2 {
+    text-align: center;
+}
+
+.create-post form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-post label {
+    margin: 10px 0 5px;
+}
+
+.create-post input, .create-post textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create-post button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-post button:hover {
+    background-color: #218838;
+} 

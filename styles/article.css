@@ -1,0 +1,89 @@
+/* Styles de l'en-tête de l'article */
+.article-header {
+    background-color: #e9ecef; /* Couleur de fond */
+    border: 2px solid #cfd8dc; /* Bordure */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 60px; /* Espacement interne */
+    text-align: center; /* Alignement du texte */
+}
+
+/* Styles du titre de l'article */
+.article-title {
+    font-size: 2em; /* Taille de la police */
+    color: #495057; /* Couleur du texte */
+    text-align: left; /* Alignement à gauche */
+}
+
+/* Styles de l'auteur et de la date */
+.article-author, .article-date {
+    font-size: 0.8em; /* Taille de la police réduite */
+    color: #adb5bd; /* Couleur du texte */
+    text-align: right; /* Alignement à droite */
+}
+
+/* Styles du contenu de l'article */
+.article-content {
+    min-width: 600px;
+    margin: 2em; /* Marge externe */
+    padding: 1em; /* Espacement interne */
+    border: 1px solid #ffeeba; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #f8f9fa; /* Couleur de fond */
+}
+
+/* Styles de l'introduction */
+.article-introduction {
+    margin-top: 2em;
+    margin-bottom: 30px; /* Marge inférieure */
+}
+
+.introduction-title {
+    font-size: 1.5em; /* Taille de la police */
+    color: #444; /* Couleur du texte */
+    margin-bottom: 15px; /* Marge inférieure */
+}
+
+.introduction-text {
+    font-size: 1em; /* Taille de la police */
+    line-height: 1.5; /* Hauteur de ligne */
+    margin-bottom: 60px; /* Marge inférieure */
+}
+
+/* Styles de l'image de l'article */
+.article-image {
+    max-width: 400px; /* Largeur maximale modifiée */
+    height: auto; /* Hauteur automatique */
+    display: block; /* Affichage en bloc */
+    margin: 0 auto; /* Centrage */
+}
+
+/* Styles pour le bouton de modification */
+.edit-button {
+    padding: 10px 15px; /* Espacement interne */
+    background-color: #28a745; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer */
+    font-size: 1em; /* Taille de la police */
+    margin-top: 15px; /* Marge supérieure */
+}
+
+.edit-button:hover {
+    background-color: #218838; /* Couleur de fond au survol */
+}
+
+.delete-button {
+    padding: 10px 15px; /* Espacement interne */
+    background-color: #a72828; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer */
+    font-size: 1em; /* Taille de la police */
+    margin-top: 15px; /* Marge supérieure */
+}
+
+.delete-button:hover {
+    background-color: #882121; /* Couleur de fond au survol */
+}

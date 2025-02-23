@@ -1,0 +1,52 @@
+#createPostButton {
+    background-color: #A3C1DA; /* Couleur pastel pour le bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px 15px; /* Espacement intérieur */
+    cursor: pointer; /* Curseur en main au survol */
+    margin-bottom: 20px; /* Espacement en bas du bouton */
+}
+
+/* Ajout de l'effet hover */
+#createPostButton:hover {
+    background-color: #7DA3B1; /* Couleur pastel au survol */
+    transition: background-color 0.3s; /* Transition douce */
+}
+
+.blog-container {
+    position: relative; /* Position relative pour le conteneur */
+    width: 90%; /* Élargir la zone du conteneur */
+    margin: 0 auto; /* Centrer le conteneur */
+}
+
+#blog {
+    display: flex; /* Utilise flexbox pour centrer le contenu */
+    flex-direction: column; /* Aligne les articles verticalement */
+    align-items: flex-start; /* Aligne à gauche */
+    color: #333; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur */
+}
+
+article {
+    background-color: #FFFFFF; /* Couleur de fond des articles */
+    border: 1px solid #E0E0E0; /* Bordure légère */
+    border-radius: 8px; /* Coins arrondis */
+    margin: 10px 0; /* Espacement entre les articles */
+    padding: 15px; /* Espacement intérieur des articles */
+    width: 80%; /* Largeur des articles */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+h2 {
+    font-size: 2em;
+    color: #A3C1DA; /* Couleur pastel pour le titre */
+}
+
+p {
+    line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+}
+
+#blog > #createPostButton {
+    margin-bottom: 20px; /* Espacement en bas du bouton */
+}
